@@ -1,3 +1,5 @@
+function updateClock(){
+
 //Retrive the current time
 var currrentTime = new Date();
 //Retrive hours, minutes, seconds
@@ -19,3 +21,5 @@ var currentTimeString = currentHours + ":" + currentMinutes + ":" + currentSecon
 
 //display the clock
 document.getElementById("clock").firstChild.nodeValue = currentTimeString;
+
+};
